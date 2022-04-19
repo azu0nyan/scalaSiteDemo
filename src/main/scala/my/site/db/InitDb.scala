@@ -12,6 +12,14 @@ object InitDb {
     ConnectionPool.singleton("jdbc:h2:file:~/testdb2:db", "user", "pass")
 //    ConnectionPool.singleton("jdbc:h2:mem:db", "user", "pass")
     initTables()
+//    Doge.addDoge("Bobik")
+//    Doge.addDoge("Sharik")
+//    Doge.addDoge("Killer")
+//    Doge.addDoge("SerialKiller")
+//    Doge.addDoge("Fluff")
+//    Doge.addDoge("Wow")
+//    Doge.addDoge("SmallDoge")
+//    Doge.addDoge("BigFoge")
 
   }
 

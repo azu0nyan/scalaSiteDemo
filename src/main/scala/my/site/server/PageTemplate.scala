@@ -10,6 +10,7 @@ object PageTemplate {
        |    <meta charset="UTF-8">
        |    <title>Doge and HOOMAN</title>
        |    <link rel="stylesheet" href="styles.css">
+       |    <script src="qwewe.js"></script>
        |</head>
        |<body>
        |<div class="container">
@@ -41,7 +42,7 @@ object PageTemplate {
          | <ul>
          |            <li><a href="/"> Главная </a></li>
          |            <li><a href="/user"> Личный кабинет</a></li>
-         |            <li><a href="/find"> DOGE-поиск</a></li>
+         |            <li><a href="/search"> DOGE-поиск</a></li>
          |            <li><a href="/logout"> Выйти</a></li>
          |        </ul>""".stripMargin
     else

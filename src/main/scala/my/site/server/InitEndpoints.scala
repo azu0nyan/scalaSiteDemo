@@ -20,6 +20,7 @@ object InitEndpoints {
     LogIn.makeEndpoints()
     User.makeEndpoints()
     LogOut.makeEndpoints()
+    DogeSearch.makeEndpoints()
   }
 
 

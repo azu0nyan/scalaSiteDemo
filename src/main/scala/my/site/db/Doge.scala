@@ -17,6 +17,12 @@ object Doge {
          """.map(rs => rs.int("id")).single().apply()
   }
 
+  def allDoges(): Seq[Doge] = {
+    implicit val session = AutoSession
+    sql"""select * from Doges"""
+      .map(rs => Doge(rs.int("id"), rs.string("name"))).list().apply()
+  }
+
 }
 
 case class Doge(id:Int, name:String)
